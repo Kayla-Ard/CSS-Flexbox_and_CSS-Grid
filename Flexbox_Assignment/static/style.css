@@ -55,6 +55,7 @@ main {
     float: right;
     margin: 0px 0px 10px 10px;
     border-bottom-left-radius: 50%;
+    object-position: right;
 }
 
 h2 {
