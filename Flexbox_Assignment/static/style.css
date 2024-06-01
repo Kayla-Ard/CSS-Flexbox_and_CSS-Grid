@@ -1,0 +1,89 @@
+body {
+    background-color: #a9907e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* header {
+    font-weight: bold;
+    color: purple;
+    text-align: center;
+} */
+
+main {
+    box-sizing: border-box;
+}
+
+/* .main-content {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+.child-div {
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+    padding: 10px;
+} */
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+nav a {
+    color: white;
+}
+
+/* creates a color upon hover */
+nav a:hover {
+    color:tomato
+}
+
+footer {
+    display: flex;
+    align-self: flex-end; 
+    align-items: center;
+    justify-content:center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: tomato;
+}
+
+/* Media Query for Smaller Screen */
+@media screen and (min-width: 390px) and (max-width: 767px) {
+
+    .container nav {
+    flex-direction: column;
+    }
+}
+
+
+
+
